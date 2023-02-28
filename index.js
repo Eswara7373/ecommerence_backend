@@ -17,7 +17,7 @@ app.use("/",macbook);
 app.use("/",accesories);
 
 app.get("/",(req,res)=>{
-    res.send('<h1>Hi i am mahesh</h1>')
+    res.send('<h1>Hello iam Eswar</h1>')
 })
 
 app.listen(5000,function(){
